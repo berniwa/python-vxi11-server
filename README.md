@@ -11,7 +11,7 @@ Since VXI-11 specifies how instrument control and data messages transfer over et
 Inspired by sonium0's [pyvxi11server](https://github.com/sonium0/pyvxi11server)
 
 ### Requirements
-  * developed and tested with Python2.7.9 on BeagleBone Black
+  * Ported to Python 3 and tested on the RPi
 
 ### Dependencies
 #### Server
@@ -81,5 +81,3 @@ To access the time server using python-vxi11 as the client library:
   * come up with a simple default locking strategy to place in the InstrumentDevice class
   * same for abort functionality
   * get rid of need for calling super.__init__()
-  * make any changes necessary for python 3
-  * try running on Raspberry Pi
